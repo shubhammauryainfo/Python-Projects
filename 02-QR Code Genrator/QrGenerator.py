@@ -7,7 +7,7 @@ from tkinter import *
 def get_code():
     data_var = data.get()
     qr = pyqrcode.create(str(data_var))
-    qr.png('code.png', scale=6)
+    qr.png('qrcode.png', scale=6)
 
 #Get a Tk window of 400 * 200
 base = Tk()
